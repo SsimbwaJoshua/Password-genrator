@@ -33,7 +33,57 @@ function App() {
               </div>
             </div>
           </section>
-          <section></section>
+          <section>
+            <div className="strength-states">
+              <p>STRENGTH</p>
+              <div className="strength-box">
+                <p>TOO WEAK!</p>
+                <div className="strength-color-boxes">
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                </div>
+              </div>
+            </div>
+            <div className="strength-states">
+              <p>STRENGTH</p>
+              <div className="strength-box">
+                <p>WEAK</p>
+                <div className="strength-color-boxes">
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                </div>
+              </div>
+            </div>
+            <div className="strength-states">
+              <p>STRENGTH</p>
+              <div className="strength-box">
+                <p>MEDIUM</p>
+                <div className="strength-color-boxes">
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                </div>
+              </div>
+            </div>
+            <div className="strength-states">
+              <p>STRENGTH</p>
+              <div className="strength-box">
+                <p>STRONG</p>
+                <div className="strength-color-boxes">
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                  <div className="strength-color-indicators"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <button>GENERATE &rarr;</button>
         </div>
       </div>
     </div>
